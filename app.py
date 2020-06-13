@@ -1,11 +1,7 @@
 from flask import Flask, render_template, url_for, request, redirect
 import requests
-from flask_sqlalchemy import SQLAlchemy
-from datetime import datetime
 from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen as uReq
-import pymongo
-import seaborn as sns
 import os
 
 
